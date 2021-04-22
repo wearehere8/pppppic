@@ -1,4 +1,61 @@
+/*鼠标->*/
 body{cursor:url(https://cdn.jsdelivr.net/gh/wearehere8/pppppic@pg/free/Jkll8I.png), auto}
 a{cursor:url(https://cdn.jsdelivr.net/gh/wearehere8/pppppic@pg/free/JkuClT.png), auto}
 button{cursor:url(https://cdn.jsdelivr.net/gh/wearehere8/pppppic@pg/free/JkuClT.png), auto}
 img{cursor:url(https://cdn.jsdelivr.net/gh/wearehere8/pppppic@pg/free/JkuClT.png), auto}
+i{cursor:url(https://cdn.jsdelivr.net/gh/wearehere8/pppppic@pg/free/JkuClT.png), auto}
+#rightside>div>button,
+#rightside>div>a {
+    display: block;
+    margin-bottom: 2px;
+    width: 30px;
+    height: 30px;
+    color: var(--btn-color);
+    text-align: center;
+    font-size: 16px;
+    cursor: url(https://cdn.jsdelivr.net/gh/wearehere8/pppppic@pg/free/JkuClT.png), auto;
+}
+.post-reward .reward-button {
+    cursor: url(https://cdn.jsdelivr.net/gh/wearehere8/pppppic@pg/free/JkuClT.png), auto;
+}
+.layout_post .tag_share .post-meta__tags {
+    cursor: url(https://cdn.jsdelivr.net/gh/wearehere8/pppppic@pg/free/JkuClT.png), auto;
+}
+.vcol * {
+    cursor: url(https://cdn.jsdelivr.net/gh/wearehere8/pppppic@pg/free/JkuClT.png), auto;
+}
+.v[data-class=v] .vicon {
+    cursor: url(https://cdn.jsdelivr.net/gh/wearehere8/pppppic@pg/free/JkuClT.png), auto;
+}
+.v[data-class=v] .vbtn {
+    cursor: url(https://cdn.jsdelivr.net/gh/wearehere8/pppppic@pg/free/JkuClT.png), auto;
+}
+.vat {
+    cursor: url(https://cdn.jsdelivr.net/gh/wearehere8/pppppic@pg/free/JkuClT.png), auto;
+}
+#upj:hover {
+    cursor: url(https://cdn.jsdelivr.net/gh/wearehere8/pppppic@pg/free/JkuClT.png), auto;
+}
+#footer-wrap a:hover {
+    text-decoration: none;
+    cursor: url(https://cdn.jsdelivr.net/gh/wearehere8/pppppic@pg/free/JkuClT.png), auto;
+}
+#pagination .page-number:hover {
+    cursor: url(https://cdn.jsdelivr.net/gh/wearehere8/pppppic@pg/free/JkuClT.png), auto;
+}
+/* 分页器的三个点(...) */
+.space {
+    color: #00c4b6;
+}
+/*<-鼠标*/
+
+/* 页脚 ---*/
+#footer {
+    background: linear-gradient(45deg, rgba(235, 229, 148, 0.75) 0%, rgba(205, 231, 162, 0.65) 100%); !important;
+}
+
+/* ---页脚 */
+
+/* 标题 */
+#article-container.post-content h1:before,h2:before,h3:before,h4:before,h5:before,h6:before{-webkit-animation:avatar_turn_around 1s linear infinite;-moz-animation:avatar_turn_around 1s linear infinite;-o-animation:avatar_turn_around 1s linear infinite;-ms-animation:avatar_turn_around 1s linear infinite;animation:avatar_turn_around 1s linear infinite}.upj{max-width:1000%;transform:translate(-70px,-80px)}.fas.fa-arrow-up{line-height:2}#page-header{background-color:transparent}
+/* ---标题 */
