@@ -1,5 +1,4 @@
-name: Merge Imgbot
-
+name: automerge
 on:
   pull_request:
     types:
@@ -8,18 +7,18 @@ on:
   pull_request_review:
     types:
       - submitted
+  check_suite:
+    types:
+      - completed
   status: {}
-
 jobs:
   automerge:
     runs-on: ubuntu-latest
     steps:
-      - name: Merge pull requests
-        uses: pascalgn/automerge-action@v0.13.1
-
+      - name: automerge
+        uses: "pascalgn/automerge-action@v0.13.1"
         env:
           GITHUB_TOKEN: "${{ secrets.GIT_MERGE_TOKEN }}"
-          MERGE_LABELS: ""
           MERGE_METHOD: "squash"
           MERGE_COMMIT_MESSAGE: "pull-request-description"
           MERGE_FORKS: "false"
