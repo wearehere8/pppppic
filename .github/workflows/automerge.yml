@@ -21,7 +21,7 @@ jobs:
           GITHUB_TOKEN: "${{ secrets.GIT_MERGE_TOKEN }}"
           MERGE_LABELS: ""
           MERGE_METHOD: "squash"
-          MERGE_COMMIT_MESSAGE: "pull-request-description"
+          MERGE_COMMIT_MESSAGE: "[ImgBot] Optimize images"
           MERGE_FORKS: "false"
           MERGE_RETRIES: "5"
           MERGE_RETRY_SLEEP: "10000"
